@@ -1,4 +1,6 @@
 ## Expectations
+- While we have provided you with an initial bootstrapped react app (based on create-react-app) you have creative license to change the initial setup to fit your preferred project structure 
+
 - We do not expect you to complete the entire challenge. 
 Ideally we would like candidates to spend 4 to 8 hours working on the exercise based on their availability and comfort level.
 Please keep track of your overall time commitment so we can make sure to take it into account when reviewing your submission.
