@@ -40,10 +40,8 @@ A "role card" is comprised of the following elements.
 ![card design link](resources/locked_inactive_role_card.png)
 
 ## Data
-In order to get data for your implementation yo have two options. 
-- We have provided a mock data sets in the `resources` directory. 
-The user_roles.json file is a mocked representation of the roles displayed on the design page.
-The users.json file is a mocked representation of a user object that would be linked to a role. Links to placeholder images have been included for convenience (don't worry if they all render the same image).
+We have provided a mock data set in the `resources` directory. 
+The user_roles.json file is a mocked representation of the roles displayed on the design page (You do not have to use this data. You are welcome to create your own mock data if you would prefer).
 
 ## Questions
 If you have questions regarding the design, data, or the challenge itself please feel free to reach out to your recruiter and we'll make sure to get you an answer ASAP. 
