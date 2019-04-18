@@ -15,6 +15,7 @@
 
 .fa-search {
     font-size: 1.9rem;
+    opacity: .3;
     position: absolute;
     top: .5rem;
     right: 1rem;

@@ -28,12 +28,36 @@ class App extends Component {
           <button className="create-role-btn btn">Create New Role</button>
         </section>
         <main className="main">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-          <div>5</div>
-          <div>6</div>
+          <div className="card">
+            <div className="card__group">
+              <div className="card__inactive-label">
+                <p>Inactive</p>
+              </div>
+              <h2 className="card__name">Super Administrator</h2>
+              <p className="card__type">Job Administration Role</p>
+              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              <div className="card__user">
+                <img src="http://placekitten.com/60/60" alt="User" className="card__user__photo" />
+                <img src="http://placekitten.com/60/60" alt="User" className="card__user__photo" />
+                <img src="http://placekitten.com/60/60" alt="User" className="card__user__photo" />
+                <img src="http://placekitten.com/60/60" alt="User" className="card__user__photo" />
+              </div>
+            </div>
+            <footer className="card__footer card__footer-noneditMode">
+              <p className="card__date-stamp">Date created: 11/01/2019</p>
+              <i class="fas fa-lock"></i>
+            </footer>
+            <footer className="card__footer card__footer-editMode">
+              <p className="card__date-stamp">Last update: 11/01/2019</p>
+              <button className="card__footer-edit-delete-btn">Edit</button>
+              <button className="card__footer-edit-delete-btn">Delete</button>
+            </footer>
+          </div>
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
         </main>
       </div>
     );
