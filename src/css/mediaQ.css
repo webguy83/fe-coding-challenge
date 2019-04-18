@@ -1,0 +1,23 @@
+@media all and (max-width: 690px) {
+    .control-panel {
+        flex-direction: column;
+    }
+    .create-role-btn {
+        margin-top: 7rem;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .role-status-container {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 6rem;
+    }
+    .control-panel__form {
+        align-items: normal;
+        flex-direction: column;
+    }
+    .search {
+        width: 100%;
+    }
+}

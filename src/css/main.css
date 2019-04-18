@@ -14,6 +14,15 @@ body {
     background-color: var(--page-bg);
 }
 
+@media all and (max-width: 690px) {
+    .control-panel {
+        flex-direction: column;
+    }
+    .create-role-btn {
+        margin-top: 7rem;
+    }
+}
+
 :root {
     --primary: #626262;
     --secondary: #a9a9a9;
@@ -38,6 +47,7 @@ body {
     background-color: var(--tertiary);
     color: #fff;
     transition: all .2s;
+    width: 17rem;
 }
 
 .btn:hover,

@@ -87,11 +87,3 @@
 .card__footer-edit-delete-btn:focus {
     outline: none;
 }
-
-.card__footer-editMode {
-    /* display: none; */
-}
-
-.card__footer-noneditMode {
-    display: none;
-}
