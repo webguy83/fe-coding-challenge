@@ -1,0 +1,62 @@
+.control-panel {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    font: inherit;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    height: 3rem;
+    border: none;
+    border-bottom: .1rem solid var(--tertiary);
+}
+
+.fa-search {
+    font-size: 1.9rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    color: var(--secondary);
+}
+
+.search-group {
+    position: relative;
+}
+
+.search:focus,
+.role-status-combobox:focus {
+    outline: none;
+}
+
+.control-panel__form {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.create-role-btn {
+    font: inherit;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.role-status-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.role-status-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.role-status-combobox {
+    font: inherit;
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: .1rem solid var(--tertiary);
+}
