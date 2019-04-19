@@ -77,6 +77,7 @@
     border: none;
     background: transparent;
     cursor: pointer;
+    margin-left: 1rem;
 }
 
 .card__footer-edit-delete-btn:hover,
