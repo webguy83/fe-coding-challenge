@@ -1,3 +1,7 @@
+Link to my project here: https://eager-mclean-bf9d46.netlify.com/
+
+
+
 ## Expectations
 - While we have provided you with an initial bootstrapped react app (based on create-react-app) you have creative license to change the initial setup to fit your preferred project structure 
 
