@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Card = (props) => {
-
     const { active, created_on, description, modified_on, name, type, users, editable } = props.data;
 
+    // render img thumbnails on cards
     const getUserImgs = () => {
         return users.map((item, i) => {
             return <img src={item.photo_url} alt={item.first_name + " " + item.last_name} className="card__user__photo" key={i} />
